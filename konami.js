@@ -123,6 +123,6 @@ if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
             return Konami;
         });
     } else {
-        window.Konami = Konami;
+        return Konami;
     }
 }
